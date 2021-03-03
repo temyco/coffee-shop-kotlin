@@ -1,0 +1,25 @@
+# Android Studio
+*.iml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Mac generated files
+.DS_Store
+
+# Build files
+/build
+/captures
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+.cxx
+
+# Gradle
+.gradle
+
+# Local configs
+local.properties
