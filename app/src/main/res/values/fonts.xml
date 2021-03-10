@@ -84,9 +84,25 @@
   <style name="Button700BColorWhite">
     <item name="android:fontFamily">@font/family_sf_pro_display</item>
     <item name="android:textStyle">bold</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Button500BColorWhite">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
     <item name="android:textSize">15sp</item>
     <item name="android:letterSpacing">-0.01</item>
     <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Button700BColorCharcoal">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
   </style>
 
   <style name="SmallStyle">
@@ -142,6 +158,26 @@
     <item name="android:textSize">15sp</item>
     <item name="android:letterSpacing">0.1</item>
     <item name="android:textColor">@color/pumpkin_orange</item>
+  </style>
+
+  <style name="Button500MColorOrangered">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">0</item>
+    <item name="android:lineSpacingExtra">1sp</item>
+    <item name="android:textColor">@color/orangered</item>
+  </style>
+
+  <style name="Button500MColorDark">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">0</item>
+    <item name="android:lineSpacingExtra">1sp</item>
+    <item name="android:textColor">@color/dark</item>
   </style>
 
   <style name="H4400RSecondaryLeft">
