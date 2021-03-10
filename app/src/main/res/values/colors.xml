@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#000000</color>
+    <color name="black">#000000</color>19222831
     <color name="dark">#222831</color>
+    <color name="dark_10">#19222831</color>
     <color name="charcoal_grey">#393e46</color>
     <color name="pale_grey">#f7f9fc</color>
     <color name="white">#ffffff</color>
     <color name="turquoise_blue">#00adb5</color>
     <color name="pumpkin_orange">#ff8400</color>
+    <color name="pumpkin_orange_10">#19ff8400</color>
     <color name="orangered">#f94510</color>
+    <color name="orangered_10">#1AF94510</color>
     <color name="coral">#f54343</color>
     <color name="lichen">#93bf72</color>
     <color name="gunmetal">#4e535a</color>

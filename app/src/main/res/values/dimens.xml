@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Buttons  -->
+    <dimen name="button_height">54dp</dimen>
+    <dimen name="small_button_height">44dp</dimen>
+    <dimen name="mini_button_height">38dp</dimen>
+    <dimen name="tiny_button_height">25dp</dimen>
+    <dimen name="button_radius">6dp</dimen>
+</resources>
