@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:drawable="@drawable/mini_button_background_passive"
+        android:drawable="@drawable/button_tiny_background_passive"
         android:state_focused="false" />
     <item
-        android:drawable="@drawable/mini_button_background_tap"
+        android:drawable="@drawable/button_tiny_background_tap"
         android:state_focused="true" />
 </selector>
