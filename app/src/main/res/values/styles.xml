@@ -72,6 +72,22 @@
         <item name="android:paddingStart">16dp</item>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
-
     </style>
+
+    <!-- Check box -->
+
+    <style name="CoffeeShop.CheckBox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/checkbox_background</item>
+    </style>
+
+    <!-- Radio button -->
+
+    <style name="CoffeeShop.RadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/radio_button_background</item>
+    </style>
+
 </resources>
