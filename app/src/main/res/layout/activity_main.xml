@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -46,6 +45,49 @@
             style="@style/Button.Tiny"
             android:id="@+id/button6"
             android:text="Text Button.Tiny" />
+
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                style="@style/CoffeeShop.CheckBox"
+                tools:text="Checkbox"/>
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                style="@style/CoffeeShop.CheckBox"
+                tools:text="Checkbox"/>
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                style="@style/CoffeeShop.CheckBox"
+                tools:text="Checkbox"/>
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                style="@style/CoffeeShop.CheckBox"
+                tools:text="Checkbox"/>
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                style="@style/CoffeeShop.RadioButton"
+                tools:text="RadioButton"
+                />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                style="@style/CoffeeShop.RadioButton"
+                tools:text="RadioButton"
+                />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                style="@style/CoffeeShop.RadioButton"
+                tools:text="RadioButton"
+                />
+        </RadioGroup>
     </LinearLayout>
 
 
