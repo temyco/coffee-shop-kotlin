@@ -12,37 +12,37 @@
         android:padding="8dp">
 
         <androidx.appcompat.widget.AppCompatButton
-            style="@style/Button.Primary"
+            style="@style/CoffeeShop.Button.Primary"
             android:id="@+id/button1"
             android:text="Text Button.Primary" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginTop="8dp"
-            style="@style/Button.Secondary"
+            style="@style/CoffeeShop.Button.Secondary"
             android:id="@+id/button2"
             android:text="Text Button.Secondary" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginTop="8dp"
-            style="@style/Button.Secondary.Small"
+            style="@style/CoffeeShop.Button.Secondary.Small"
             android:id="@+id/button3"
             android:text="Text Button.Secondary.Small" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginTop="8dp"
-            style="@style/Button.Secondary.Small.Highlighted"
+            style="@style/CoffeeShop.Button.Secondary.Small.Highlighted"
             android:id="@+id/button4"
             android:text="Text Button.Small.Highlighted" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginTop="8dp"
-            style="@style/Button.Mini"
+            style="@style/CoffeeShop.Button.Mini"
             android:id="@+id/button5"
             android:text="Text Button.Mini" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginTop="8dp"
-            style="@style/Button.Tiny"
+            style="@style/CoffeeShop.Button.Tiny"
             android:id="@+id/button6"
             android:text="Text Button.Tiny" />
 
@@ -75,18 +75,15 @@
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 style="@style/CoffeeShop.RadioButton"
-                tools:text="RadioButton"
-                />
+                tools:text="RadioButton"/>
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 style="@style/CoffeeShop.RadioButton"
-                tools:text="RadioButton"
-                />
+                tools:text="RadioButton"/>
 
             <androidx.appcompat.widget.AppCompatRadioButton
                 style="@style/CoffeeShop.RadioButton"
-                tools:text="RadioButton"
-                />
+                tools:text="RadioButton"/>
         </RadioGroup>
     </LinearLayout>
 
