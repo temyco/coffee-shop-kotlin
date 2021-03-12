@@ -3,7 +3,7 @@
 
     <!-- Buttons -->
 
-    <style name="Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+    <style name="CoffeeShop.Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/button_height</item>
@@ -15,7 +15,7 @@
         <item name="android:padding">12dp</item>
     </style>
 
-    <style name="Button.Secondary" parent="@style/Widget.AppCompat.Button.Colored">
+    <style name="CoffeeShop.Button.Secondary" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/button_height</item>
@@ -26,7 +26,7 @@
         <item name="android:padding">12dp</item>
     </style>
 
-    <style name="Button.Secondary.Small" parent="@style/Widget.AppCompat.Button.Colored">
+    <style name="CoffeeShop.Button.Secondary.Small" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/small_button_height</item>
@@ -37,7 +37,7 @@
         <item name="android:padding">12dp</item>
     </style>
 
-    <style name="Button.Secondary.Small.Highlighted" parent="@style/Widget.AppCompat.Button.Colored">
+    <style name="CoffeeShop.Button.Secondary.Small.Highlighted" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/small_button_height</item>
@@ -49,7 +49,7 @@
         <item name="android:padding">12dp</item>
     </style>
 
-    <style name="Button.Mini" parent="@style/Widget.AppCompat.Button.Colored">
+    <style name="CoffeeShop.Button.Mini" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/mini_button_height</item>
@@ -60,7 +60,7 @@
         <item name="android:padding">12dp</item>
     </style>
 
-    <style name="Button.Tiny" parent="@style/Widget.AppCompat.Button.Colored">
+    <style name="CoffeeShop.Button.Tiny" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/tiny_button_height</item>
