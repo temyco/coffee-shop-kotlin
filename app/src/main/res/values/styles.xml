@@ -3,91 +3,85 @@
 
     <!-- Buttons -->
 
-    <style name="CoffeeShop.Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <!-- Primary -->
+
+    <style name="App.Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/button_height</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/button_primary_background</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:background">@drawable/sl_button_primary_background</item>
         <item name="android:textAppearance">@style/Button700BColorWhite</item>
         <item name="android:textAllCaps">false</item>
-        <item name="android:padding">12dp</item>
+        <item name="android:padding">@dimen/button_pudding</item>
+        <item name="android:paddingStart">@dimen/button_pudding_sides</item>
+        <item name="android:paddingEnd">@dimen/button_pudding_sides</item>
     </style>
 
-    <style name="CoffeeShop.Button.Secondary" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/button_height</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/button_secondary_background</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
-        <item name="android:textAppearance">@style/Button700BColorCharcoal</item>
-        <item name="android:padding">12dp</item>
+    <style name="App.Button.Primary.Big" parent="@style/App.Button.Primary">
+        <item name="android:minHeight">@dimen/button_primary_big_height</item>
     </style>
 
-    <style name="CoffeeShop.Button.Secondary.Small" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/small_button_height</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/button_primary_background</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
-        <item name="android:textAppearance">@style/Button500BColorWhite</item>
-        <item name="android:padding">12dp</item>
+    <style name="App.Button.Primary.Medium" parent="@style/App.Button.Primary">
+        <item name="android:minHeight">@dimen/button_primary_medium_height</item>
     </style>
 
-    <style name="CoffeeShop.Button.Secondary.Small.Highlighted" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">match_parent</item>
+    <style name="App.Button.Primary.Small" parent="@style/App.Button.Primary">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">@dimen/button_primary_small_height</item>
+    </style>
+
+        <!-- Outlined -->
+
+    <style name="App.Button.Outlined" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/small_button_height</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/button_highlighted_background</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
-        <item name="android:textAppearance">@style/Button500MColorOrange</item>
+        <item name="android:padding">@dimen/button_pudding</item>
+        <item name="android:paddingStart">@dimen/button_pudding_sides</item>
+        <item name="android:paddingEnd">@dimen/button_pudding_sides</item>
         <item name="android:textAllCaps">false</item>
-        <item name="android:padding">12dp</item>
     </style>
 
-    <style name="CoffeeShop.Button.Mini" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/mini_button_height</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/button_mini_background</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
+    <style name="App.Button.Outlined.Big" parent="@style/App.Button.Outlined">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_outlined_big_height</item>
+        <item name="android:background">@drawable/sl_button_outlined_big_background</item>
+        <item name="android:textAppearance">@style/Button700BColorCharcoal</item>
+    </style>
+
+    <style name="App.Button.Outlined.Medium" parent="@style/App.Button.Outlined">
+        <item name="android:layout_height">@dimen/button_outlined_medium_height</item>
+        <item name="android:background">@drawable/sl_button_outlined_medium_background</item>
+        <item name="android:textAppearance">@style/Button500MColorOrange</item>
+    </style>
+
+    <style name="App.Button.Outlined.Small" parent="@style/App.Button.Outlined">
+        <item name="android:layout_height">@dimen/button_outlined_small_height</item>
+        <item name="android:background">@drawable/sl_button_outlined_small_background</item>
         <item name="android:textAppearance">@style/Button500MColorDark</item>
-        <item name="android:padding">12dp</item>
     </style>
 
-    <style name="CoffeeShop.Button.Tiny" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/tiny_button_height</item>
-        <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/button_tiny_background</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
+    <style name="App.Button.Outlined.Tiny" parent="@style/App.Button.Outlined">
+        <item name="android:layout_height">@dimen/button_outlined_tiny_height</item>
+        <item name="android:background">@drawable/sl_button_outlined_tiny_background</item>
         <item name="android:textAppearance">@style/Button500MColorOrangered</item>
-        <item name="android:paddingEnd">16dp</item>
-        <item name="android:paddingStart">16dp</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textAllCaps">true</item>
     </style>
 
-    <!-- Check box -->
+        <!-- Check box -->
 
     <style name="CoffeeShop.CheckBox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:button">@drawable/checkbox_background</item>
+        <item name="android:button">@drawable/sl_checkbox_background</item>
     </style>
 
-    <!-- Radio button -->
+        <!-- Radio button -->
 
     <style name="CoffeeShop.RadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:button">@drawable/radio_button_background</item>
+        <item name="android:button">@drawable/sl_radio_button_background</item>
     </style>
 
 </resources>
