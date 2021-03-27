@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Buttons  -->
+
+        <!-- Primary -->
+    <dimen name="button_primary_big_height">54dp</dimen>
+    <dimen name="button_primary_medium_height">44dp</dimen>
+    <dimen name="button_primary_small_height">44dp</dimen>
+
+        <!-- Outlined -->
+    <dimen name="button_outlined_big_height">54dp</dimen>
+    <dimen name="button_outlined_medium_height">44dp</dimen>
+    <dimen name="button_outlined_small_height">38dp</dimen>
+    <dimen name="button_outlined_tiny_height">25dp</dimen>
+
+        <!-- All -->
+    <dimen name="button_radius">6dp</dimen>
+    <dimen name="button_pudding">0dp</dimen>
+    <dimen name="button_pudding_sides">16dp</dimen>
+</resources>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="H1500MPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">25sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="H2700BPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="H2500MSecondaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:lineSpacingExtra">12sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="Button700BWhite">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:lineSpacingExtra">3sp</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="H3500MSecondaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="H3500MPrimaryRight">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="H3500MPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="H3400RPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="H4700BPrimaryRight">
+    <item name="android:gravity">end</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="H4700BPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="Button700BColorWhite">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Button500BColorWhite">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Button700BColorCharcoal">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">17sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="SmallStyle">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="Overline500MPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">0.1</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="Overline500MColorOrange">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:textColor">@color/coral</item>
+  </style>
+
+  <style name="H4500MSecondaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="H4500MPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="H4500MColorWhiteLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:textColor">@color/pale_grey</item>
+  </style>
+
+  <style name="Button500MColorOrange">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">0.1</item>
+    <item name="android:textColor">@color/pumpkin_orange</item>
+  </style>
+
+  <style name="Button500MColorOrangered">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">0</item>
+    <item name="android:lineSpacingExtra">1sp</item>
+    <item name="android:textColor">@color/orangered</item>
+  </style>
+
+  <style name="Button500MColorDark">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">0</item>
+    <item name="android:lineSpacingExtra">1sp</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="H4400RSecondaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="H4400RQuaternaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:textColor">@color/gunmetal_80</item>
+  </style>
+
+  <style name="H4400LTertiaryRight">
+    <item name="android:gravity">end</item>
+    <item name="android:fontFamily">@font/family_sf_ui_display_light</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/gunmetal</item>
+  </style>
+
+  <style name="Overline700BSecondaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="Overline700BQuaternaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/gunmetal_80</item>
+  </style>
+
+  <style name="Overline700BPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="MilkStyle">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="Body500MTertiaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:textColor">@color/gunmetal</item>
+  </style>
+
+  <style name="Body500MPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="Body500MColorOrange">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:textColor">@color/orangered</item>
+  </style>
+
+  <style name="Body500MColorBlueLeft">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">0.03</item>
+    <item name="android:textColor">@color/turquoise_blue</item>
+  </style>
+
+  <style name="Body500MColorBlue">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">0.03</item>
+    <item name="android:textColor">@color/turquoise_blue</item>
+  </style>
+
+  <style name="Body500MSecondaryRight">
+    <item name="android:fontFamily">@font/family_sf_pro_text_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="Body400RQuaternaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/gunmetal_80</item>
+  </style>
+
+  <style name="Body400RPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="Body400RPrimaryCenter">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_display</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:lineSpacingExtra">5sp</item>
+    <item name="android:textColor">@color/charcoal_grey</item>
+  </style>
+
+  <style name="Body400RColorWhiteLeft">
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.02</item>
+    <item name="android:lineSpacingExtra">7sp</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Body400RColorOrange1">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/pumpkin_orange</item>
+  </style>
+
+  <style name="Body400RColorGreen">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:textColor">@color/lichen</item>
+  </style>
+
+  <style name="Body300LPrimaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_text_light</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/dark</item>
+  </style>
+
+  <style name="Body300LColorOrange">
+    <item name="android:fontFamily">@font/family_sf_pro_text_light</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">13sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/pumpkin_orange</item>
+  </style>
+
+  <style name="Caption700BColorBlue">
+    <item name="android:fontFamily">@font/family_sf_pro_text</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/turquoise_blue</item>
+  </style>
+
+  <style name="Overline500MQuaternaryLeft">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:letterSpacing">0.1</item>
+    <item name="android:textColor">@color/gunmetal_80</item>
+  </style>
+
+  <style name="Overline500MColorWhite">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:letterSpacing">0.1</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Caption500MPrimaryStyle">
+    <item name="android:fontFamily">@font/family_sf_pro_display_medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="Caption300LSecondStyle">
+    <item name="android:fontFamily">@font/family_sf_pro_display_light</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+
+  <style name="FourStepsToFreeCoffeeStyle">
+    <item name="android:fontFamily">@font/family_sf_pro_text_light</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">10sp</item>
+    <item name="android:letterSpacing">-0.01</item>
+    <item name="android:textColor">@color/white</item>
+  </style>
+</resources>
