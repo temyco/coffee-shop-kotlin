@@ -10,9 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CoffeeShop">
-        <activity android:name=".navigation.view.HomeActivity"/>
         <activity
-            android:name=".splash.view.SplashActivity">
+            android:name=".navigation.view.AppActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
