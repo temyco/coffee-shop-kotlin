@@ -1,6 +1,9 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -33,7 +36,6 @@ android {
 }
 
 dependencies {
-    def navigation = "2.3.4"
     def core = "1.3.2"
     def app_compat = "1.2.0"
     def material = "1.3.0"
@@ -49,8 +51,12 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:$constraint_layout"
 
     // Navigation Component Kotlin
-    implementation "androidx.navigation:navigation-fragment-ktx:$navigation"
-    implementation "androidx.navigation:navigation-ui-ktx:$navigation"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // Hilt Components
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
 
     // Test libraries
     testImplementation "junit:junit:$junit"
