@@ -6,8 +6,6 @@
         <!-- Primary -->
 
     <style name="App.Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/sl_button_primary_background</item>
         <item name="android:textAppearance">@style/Button700BColorWhite</item>
@@ -18,23 +16,20 @@
     </style>
 
     <style name="App.Button.Primary.Big" parent="@style/App.Button.Primary">
-        <item name="android:minHeight">@dimen/button_primary_big_height</item>
+        <item name="android:layout_height">@dimen/button_primary_big_height</item>
     </style>
 
     <style name="App.Button.Primary.Medium" parent="@style/App.Button.Primary">
-        <item name="android:minHeight">@dimen/button_primary_medium_height</item>
+        <item name="android:layout_height">@dimen/button_primary_medium_height</item>
     </style>
 
     <style name="App.Button.Primary.Small" parent="@style/App.Button.Primary">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:minHeight">@dimen/button_primary_small_height</item>
+        <item name="android:layout_height">@dimen/button_primary_small_height</item>
     </style>
 
         <!-- Outlined -->
 
     <style name="App.Button.Outlined" parent="@style/Widget.AppCompat.Button.Colored">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:padding">@dimen/button_pudding</item>
         <item name="android:paddingStart">@dimen/button_pudding_sides</item>
@@ -43,7 +38,6 @@
     </style>
 
     <style name="App.Button.Outlined.Big" parent="@style/App.Button.Outlined">
-        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/button_outlined_big_height</item>
         <item name="android:background">@drawable/sl_button_outlined_big_background</item>
         <item name="android:textAppearance">@style/Button700BColorCharcoal</item>
@@ -70,7 +64,7 @@
 
         <!-- Check box -->
 
-    <style name="CoffeeShop.CheckBox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+    <style name="App.CheckBox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:button">@drawable/sl_checkbox_background</item>
@@ -78,7 +72,7 @@
 
         <!-- Radio button -->
 
-    <style name="CoffeeShop.RadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
+    <style name="App.RadioButton" parent="@style/Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:button">@drawable/sl_radio_button_background</item>
