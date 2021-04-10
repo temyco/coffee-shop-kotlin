@@ -4,4 +4,6 @@
     <string name="tab_orders">Orders</string>
     <string name="tab_basket">Basket</string>
     <string name="tab_profile">Profile</string>
+    <string name="screen_product_details">Product Details no data</string>
+    <string name="caffeine">Caffeine</string>
 </resources>

@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -43,6 +44,7 @@ dependencies {
     def junit = "4.13.2"
     def junit_extension = "1.1.2"
     def espresso_core = "3.3.0"
+    def hilt_androidx_version = '1.0.0-alpha03'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.core:core-ktx:$core"
@@ -57,6 +59,8 @@ dependencies {
     // Hilt Components
     implementation "com.google.dagger:hilt-android:$hilt_version"
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_androidx_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_androidx_version"
 
     // Test libraries
     testImplementation "junit:junit:$junit"
