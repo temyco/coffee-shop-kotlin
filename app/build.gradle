@@ -45,6 +45,8 @@ dependencies {
     def junit_extension = "1.1.2"
     def espresso_core = "3.3.0"
     def hilt_androidx_version = '1.0.0-alpha03'
+    def mockk = "1.11.0"
+    def core_testing = "1.1.1"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.core:core-ktx:$core"
@@ -63,7 +65,9 @@ dependencies {
     kapt "androidx.hilt:hilt-compiler:$hilt_androidx_version"
 
     // Test libraries
+    testImplementation "io.mockk:mockk:$mockk"
     testImplementation "junit:junit:$junit"
+    testImplementation "android.arch.core:core-testing:$core_testing"
     androidTestImplementation "androidx.test.ext:junit:$junit_extension"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_core"
 }
